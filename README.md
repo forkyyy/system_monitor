@@ -51,4 +51,4 @@ Replace `'http://backend:3000/metrics'` with your own backend server URL.
 
 ### Running the Server
 
-Once you've completed these steps, you can run 'npm start' to start the server and begin monitoring your system metrics.
+Once you've completed these steps, you can run 'node api.js' to start the server and begin monitoring your system metrics.
