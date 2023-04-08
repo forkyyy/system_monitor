@@ -16,7 +16,7 @@ Replace 'https://api.yourdomain.com/server1' in script.js to your server APIs
 
 I recommend making a reverse proxy using nginx to hide your backend server IPs
 
-server {
+`server {
     listen 80;
     server_name api.yourdomain.com;
 
@@ -39,4 +39,4 @@ server {
         add_header Access-Control-Allow-Origin *;
         proxy_pass http://backend:3000/metrics;
     }
-}
+}`
