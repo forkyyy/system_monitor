@@ -1,0 +1,30 @@
+body {
+  background-color: #1a1a1a;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  width: 20%;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.1);
+  background-color: #333;
+}
+
+.box h2 {
+  font-size: 20px;
+  margin-top: 0;
+}
+
+.box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
