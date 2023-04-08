@@ -40,4 +40,4 @@ server {
         add_header Access-Control-Allow-Origin *;
         proxy_pass http://backend:3000/metrics;
     }
-}```
+}
