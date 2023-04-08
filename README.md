@@ -20,7 +20,7 @@ Then, open 'script.js' and replace 'https://api.yourdomain.com/server1' with you
 
 We recommend making a reverse proxy using Nginx to hide your backend server IPs:
 
-```go
+```conf
 server {
     listen 80;
     server_name api.yourdomain.com;
