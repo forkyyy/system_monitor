@@ -1,5 +1,3 @@
-# system_monitor
-
 System monitor using API in NodeJS
 
 Installation:
